@@ -4,7 +4,7 @@ int main()
 int a[20],i,j,n,temp;
 printf("Enter the size of an array:\n");
 scanf("%d",&n);
-printf("Enter the element in an array:\n")
+printf("Enter the element in an array:\n");
 for(i=0;i<n;i++)
 {
 scanf("%d",&a[i]);
@@ -17,7 +17,7 @@ if(a[i]>a[j])
 {
 temp=a[i];
 a[i]=a[j];
-a[j]=remp;
+a[j]=temp;
 }
 }
 }
